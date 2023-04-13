@@ -1,0 +1,30 @@
+{
+  "TopTeams": [
+    {
+      "rank": 1,
+      "name": "FURIA",
+      "logoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
+      "players": [
+        {
+          "name": "rain",
+          "nickname": "rain",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/ebX1nyC7pzo5bLwDtkmabc.png?ixlib=java-2.1.0&s=01e6ca081ed78357ab670bf6c92714cc"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "FURIAA",
+      "logoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
+      "players": [
+        {
+          "name": "rainn",
+          "nickname": "rainn",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/ebX1nyC7pzo5bLwDtkmabc.png?ixlib=java-2.1.0&s=01e6ca081ed78357ab670bf6c92714cc"
+        }
+      ]
+    }
+  ]
+}

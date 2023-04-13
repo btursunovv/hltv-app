@@ -1,0 +1,51 @@
+.match-result{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 5px;
+  transition: background ease 0.2s;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.5);
+  margin-bottom: 6px;
+  background-color: #2d3844;
+  line-height: 1.56667;
+}
+.match-result:last-child{
+  border: none;
+}
+.match-result-teams{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.match-result:hover{
+  cursor: pointer;
+  background-color: #45515F;
+}
+
+.match-result img{
+  width: 18px;
+  height: 12px;
+  border: 1px solid black;
+  margin-right: 3px;
+}
+
+.match-result-team-points{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.green{
+  color: #09b300;
+}
+
+.red{
+  color: #c30404;
+}
+
+.match-result-title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
