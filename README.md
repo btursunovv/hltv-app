@@ -13,4 +13,4 @@ yarn install
 yarn start
 ```
 
-Made by Guilherme (~_^)
+Credits to Guilherme (~_^)
