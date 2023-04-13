@@ -18,7 +18,7 @@ import { useParams } from "react-router-dom";
 import RankingDetails from "./RankingDetails";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import data from "../../../fakeJSON.json";
+import fakeJSON from "../../../fakeJSON.json";
 
 function RankingPage() {
   const navigate = useNavigate();
@@ -27,14 +27,11 @@ function RankingPage() {
     navigate("/");
   };
 
-  // const result = fakeData.teamsData.find((item) => item === params.name);
+  const { name } = useParams();
+  const topTeam = fakeJSON.TopTeams.find((stats) => stats.name === name);
 
-  const { id } = useParams();
-  const team = data.TopTeams.find((team) => team.name === id);
-
-  // const params = useParams();
-
-  console.log(team);
+  console.log(topTeam);
+  console.log(name);
 
   return (
     <>
@@ -115,7 +112,12 @@ function RankingPage() {
             />
           </aside>
           <div id="center-content">
-            <RankingDetails />
+            <RankingDetails
+              name={topTeam.name}
+              rank={topTeam.rank}
+              logo={topTeam.logoUrl}
+              players={topTeam.players}
+            />
           </div>
           <aside className="right-content">
             <a href="#">

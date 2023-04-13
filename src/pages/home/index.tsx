@@ -40,12 +40,12 @@ function Home() {
           <a href="#">
             <img src={logo} alt="logo" id="logo-img" />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <img src={ad1} alt="logo" />
           </a>
           <a href="#">
             <img src={ad2} alt="logo" />
-          </a>
+          </a> */}
         </div>
         <div id="main-content">
           <aside id="left-content">
@@ -187,13 +187,13 @@ function Home() {
                 ))}
               </div>
             </div>
-            <div>
+            {/* <div>
               <img
                 className="ad"
                 src="https://static.hltv.org//images/retina2/unikrn/third4.gif"
                 alt="ad"
               />
-            </div>
+            </div> */}
             <div>
               <a href="#">
                 <h5>RESULTS</h5>
@@ -218,7 +218,7 @@ function Home() {
               </div>
             </div>
           </aside>
-          <aside className="right-content">
+          {/* <aside className="right-content">
             <a href="#">
               <h5>RECENT ACTIVITY</h5>
             </a>
@@ -247,7 +247,7 @@ function Home() {
                 ))}
               </div>
             </div>
-          </aside>
+          </aside> */}
         </div>
       </main>
       <Footer />
