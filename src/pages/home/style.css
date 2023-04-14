@@ -9,11 +9,17 @@ main {
   flex-grow: 1;
 }
 
+.wrapperLogo {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 40px;
+}
 #logo {
   width: 100%;
   max-height: 60px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 
 #logo-img {
@@ -40,7 +46,7 @@ main {
 }
 
 #center-content {
-  width: 477px;
+  width: 520px;
 }
 
 #loot-bet-ad {

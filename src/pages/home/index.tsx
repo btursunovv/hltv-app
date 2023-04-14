@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
 import logo from "../../assets/images/logo.png";
-import ad1 from "../../assets/images/ad1.png";
-import ad2 from "../../assets/images/ad2.png";
-import ad3 from "../../assets/images/ad3.png";
-import ad4 from "../../assets/images/ad4.png";
+// import ad1 from "../../assets/images/ad1.png";
+// import ad2 from "../../assets/images/ad2.png";
+// import ad3 from "../../assets/images/ad3.png";
+// import ad4 from "../../assets/images/ad4.png";
 import fakeData from "../../fakeData";
 import Team from "./components/RankingTeam";
 import Event from "./components/Events";
@@ -23,49 +23,52 @@ import { Link } from "react-router-dom";
 function Home() {
   const navigate = useNavigate();
 
-  const navigateToTeams = () => {
-    navigate("/teams");
-  };
   const navigateHome = () => {
     navigate("/");
   };
 
-  const params = useParams;
+  // const params = useParams;
 
   return (
     <>
       <TopBar />
       <main>
-        <div id="logo" onClick={navigateHome}>
-          <a href="#">
-            <img src={logo} alt="logo" id="logo-img" />
-          </a>
-          {/* <a href="#">
+        <div className="wrapperLogo">
+          <div id="logo" onClick={navigateHome}>
+            <a href="#">
+              <img src={logo} alt="logo" id="logo-img" />
+            </a>
+            {/* <a href="#">
             <img src={ad1} alt="logo" />
           </a>
           <a href="#">
             <img src={ad2} alt="logo" />
           </a> */}
+          </div>
         </div>
+
         <div id="main-content">
           <aside id="left-content">
-            <div id="loot-bet-ad">
+            {/* <div id="loot-bet-ad">
               <a href="#">
                 <img src={ad3} alt="Loot bet ad" />
               </a>
-            </div>
-            <PlayerOfTheWeek
-              name={fakeData.playerOfTheWeek.name}
-              nickName={fakeData.playerOfTheWeek.nickName}
-              photoUrl={fakeData.playerOfTheWeek.photoUrl}
-              team={fakeData.playerOfTheWeek.team}
-              data={fakeData.playerOfTheWeek.data}
-            />
-            <div id="betway-ad">
+            </div> */}
+            <Link to="/playerOfTheWeek">
+              <PlayerOfTheWeek
+                name={fakeData.playerOfTheWeek.name}
+                nickName={fakeData.playerOfTheWeek.nickName}
+                photoUrl={fakeData.playerOfTheWeek.photoUrl}
+                team={fakeData.playerOfTheWeek.team}
+                data={fakeData.playerOfTheWeek.data}
+              />
+            </Link>
+
+            {/* <div id="betway-ad">
               <a href="#">
                 <img src={ad4} alt="betway" />
               </a>
-            </div>
+            </div> */}
             <div id="ranking">
               <h5>
                 <a href="#">RANKING</a>

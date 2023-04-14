@@ -1,9 +1,5 @@
 import TopBar from "../components/TopBar";
 import logo from "../../../assets/images/logo.png";
-import ad1 from "../../../assets/images/ad1.png";
-import ad2 from "../../../assets/images/ad2.png";
-import ad3 from "../../../assets/images/ad3.png";
-import ad4 from "../../../assets/images/ad4.png";
 import { useNavigate } from "react-router-dom";
 import "./ranking.css";
 import Footer from "../components/Footer";
@@ -19,19 +15,16 @@ import RankingDetails from "./RankingDetails";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import fakeJSON from "../../../fakeJSON.json";
+import PlayerOfWeekInfo from "./PlayerOfWeekInfo";
+import MatchesInfo from "./MatchesInfo";
+import "./matches.css";
 
-function RankingPage() {
+function Matches() {
   const navigate = useNavigate();
 
   const navigateHome = () => {
     navigate("/");
   };
-
-  const { name } = useParams();
-  const topTeam = fakeJSON.TopTeams.find((stats) => stats.name === name);
-
-  console.log(topTeam);
-  console.log(name);
 
   return (
     <>
@@ -45,7 +38,7 @@ function RankingPage() {
           </div>
         </div>
 
-        <div id="main-content">
+        <div className="main-content-matches">
           <aside id="left-content">
             {/* <div id="loot-bet-ad">
               <a href="#">
@@ -77,7 +70,6 @@ function RankingPage() {
                   </Link>
                 ))}
               </div>
-
               <div id="complete-ranking">
                 <span>Complete ranking</span>
                 <span>Last updated: 26th of Oct</span>
@@ -102,15 +94,10 @@ function RankingPage() {
               photoDescription={fakeData.gallerie.photoDescription}
             />
           </aside>
-          <div id="center-content">
-            <RankingDetails
-              name={topTeam.name}
-              rank={topTeam.rank}
-              logo={topTeam.logoUrl}
-              players={topTeam.players}
-            />
+          <div id="center-content-matches">
+            <MatchesInfo />
           </div>
-          <aside className="right-content">
+          {/* <aside className="right-content">
             <a href="#">
               <h5>RECENT ACTIVITY</h5>
             </a>
@@ -126,11 +113,7 @@ function RankingPage() {
                 <span>Post new topic</span>
               </div>
             </div>
-            {/* <div id="ad4">
-              <a href="#">
-                <img src="https://i.imgur.com/UOpA8IG.png" alt="ad4" />
-              </a>
-            </div> */}
+            
             <div>
               <h5>LATEST REPLAYS</h5>
               <div id="latest-replay">
@@ -139,7 +122,7 @@ function RankingPage() {
                 ))}
               </div>
             </div>
-          </aside>
+          </aside> */}
         </div>
       </div>
       <Footer />
@@ -147,4 +130,4 @@ function RankingPage() {
   );
 }
 
-export default RankingPage;
+export default Matches;

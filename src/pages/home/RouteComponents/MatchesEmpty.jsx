@@ -1,9 +1,5 @@
 import TopBar from "../components/TopBar";
 import logo from "../../../assets/images/logo.png";
-import ad1 from "../../../assets/images/ad1.png";
-import ad2 from "../../../assets/images/ad2.png";
-import ad3 from "../../../assets/images/ad3.png";
-import ad4 from "../../../assets/images/ad4.png";
 import { useNavigate } from "react-router-dom";
 import "./ranking.css";
 import Footer from "../components/Footer";
@@ -19,19 +15,19 @@ import RankingDetails from "./RankingDetails";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import fakeJSON from "../../../fakeJSON.json";
+import PlayerOfWeekInfo from "./PlayerOfWeekInfo";
+import MatchesInfo from "./MatchesInfo";
+import MatchesDetails from "./MatchesDetails";
 
-function RankingPage() {
+function MatchesEmpty() {
   const navigate = useNavigate();
 
   const navigateHome = () => {
     navigate("/");
   };
 
-  const { name } = useParams();
-  const topTeam = fakeJSON.TopTeams.find((stats) => stats.name === name);
-
-  console.log(topTeam);
-  console.log(name);
+  const { id } = useParams();
+  const match = fakeJSON.Matches.find((stats) => stats.id === id);
 
   return (
     <>
@@ -77,7 +73,6 @@ function RankingPage() {
                   </Link>
                 ))}
               </div>
-
               <div id="complete-ranking">
                 <span>Complete ranking</span>
                 <span>Last updated: 26th of Oct</span>
@@ -103,11 +98,19 @@ function RankingPage() {
             />
           </aside>
           <div id="center-content">
-            <RankingDetails
-              name={topTeam.name}
-              rank={topTeam.rank}
-              logo={topTeam.logoUrl}
-              players={topTeam.players}
+            <MatchesDetails
+              id={match.id}
+              team1={match.team1}
+              team2={match.team2}
+              team1LogoUrl={match.team1LogoUrl}
+              team2LogoUrl={match.team2LogoUrl}
+              eventLogo={match.eventLogo}
+              eventName={match.eventName}
+              matchTime={match.matchTime}
+              matchGames={match.matchGames}
+              players1={match.players1}
+              players2={match.players2}
+              maps={match.maps}
             />
           </div>
           <aside className="right-content">
@@ -147,4 +150,4 @@ function RankingPage() {
   );
 }
 
-export default RankingPage;
+export default MatchesEmpty;

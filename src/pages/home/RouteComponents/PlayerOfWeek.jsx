@@ -1,9 +1,5 @@
 import TopBar from "../components/TopBar";
 import logo from "../../../assets/images/logo.png";
-import ad1 from "../../../assets/images/ad1.png";
-import ad2 from "../../../assets/images/ad2.png";
-import ad3 from "../../../assets/images/ad3.png";
-import ad4 from "../../../assets/images/ad4.png";
 import { useNavigate } from "react-router-dom";
 import "./ranking.css";
 import Footer from "../components/Footer";
@@ -19,19 +15,14 @@ import RankingDetails from "./RankingDetails";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import fakeJSON from "../../../fakeJSON.json";
+import PlayerOfWeekInfo from "./PlayerOfWeekInfo";
 
-function RankingPage() {
+function PlayerOfWeek() {
   const navigate = useNavigate();
 
   const navigateHome = () => {
     navigate("/");
   };
-
-  const { name } = useParams();
-  const topTeam = fakeJSON.TopTeams.find((stats) => stats.name === name);
-
-  console.log(topTeam);
-  console.log(name);
 
   return (
     <>
@@ -77,7 +68,6 @@ function RankingPage() {
                   </Link>
                 ))}
               </div>
-
               <div id="complete-ranking">
                 <span>Complete ranking</span>
                 <span>Last updated: 26th of Oct</span>
@@ -103,11 +93,12 @@ function RankingPage() {
             />
           </aside>
           <div id="center-content">
-            <RankingDetails
-              name={topTeam.name}
-              rank={topTeam.rank}
-              logo={topTeam.logoUrl}
-              players={topTeam.players}
+            <PlayerOfWeekInfo
+              name={fakeData.playerOfTheWeek.name}
+              nickName={fakeData.playerOfTheWeek.nickName}
+              photoUrl={fakeData.playerOfTheWeek.photoUrl}
+              team={fakeData.playerOfTheWeek.team}
+              data={fakeData.playerOfTheWeek.data}
             />
           </div>
           <aside className="right-content">
@@ -147,4 +138,4 @@ function RankingPage() {
   );
 }
 
-export default RankingPage;
+export default PlayerOfWeek;

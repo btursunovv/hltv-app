@@ -104,6 +104,12 @@ const playerOfTheWeek = {
   data: {
     name: "Opening duels Won",
     value: "74.2%",
+    rating: "1.13",
+    killsPerRound: "0.71",
+    headshots: "44%",
+    mapsPlayed: "41",
+    deathPerRound: "0.64",
+    roundCont: "73.6%",
   },
 };
 

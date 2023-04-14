@@ -18,3 +18,82 @@
   flex-direction: column;
   width: 160px;
 }
+
+.playerDetails {
+  display: flex;
+  gap: 5px;
+}
+
+.imgLogo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.playerPhoto {
+  width: 100px;
+  height: 100px;
+}
+
+.teamBar {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.playerInfo {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.teamName {
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.teamRank {
+  font-size: 30px;
+}
+
+.playerOfTheWeek {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.playerOfTheWeekPlayer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playerOfTheWeekTeam {
+  display: flex;
+  flex-direction: column;
+}
+
+.playerOfTheWeekWrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(45, 56, 68, 0.35);
+  padding-bottom: 20px;
+}
+
+.playerPhotoOfTheWeek {
+  width: 200px;
+  height: 200px;
+}
+
+.playerOfTheWeekText {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.playerOfTheWeekTeamName {
+  font-size: 50px;
+}

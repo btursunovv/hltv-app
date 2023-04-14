@@ -1,0 +1,86 @@
+.matchesWrapper {
+  width: 520px;
+  background-color: rgba(45, 56, 68, 0.35);
+}
+
+.matchesInfoCardImg {
+  width: 20px;
+}
+
+.main-content-matches {
+  display: flex;
+  gap: 140px;
+  margin: 0 40px;
+}
+
+.center-content-matches {
+  width: 520px;
+}
+
+.matchDayHeadline {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.matchesInfoCardMain {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #2d3844;
+}
+
+.matchesCol1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.matchesInfoTeams {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.matchesInfoTeam1 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.matchesInfoTeam2 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.matchesEventLogo {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+}
+
+.matchesEventName {
+  font-size: 10px;
+  max-width: 200px;
+}
+
+.matchPlayersContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.matchPlayers1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100px;
+  gap: 5px;
+}
+
+.matchPlayers2 {
+  display: flex;
+  justify-content: space-between;
+}
