@@ -1,5 +1,6 @@
 import MatchPlayers1 from "./MatchPlayers1";
 import MatchPlayers2 from "./MatchPlayers2";
+import MatchMaps from "./MatchMaps";
 
 function MatchesDetails({
   id,
@@ -57,6 +58,11 @@ function MatchesDetails({
               role={player.role}
               photo={player.photo}
             />
+          ))}
+        </div>
+        <div>
+          {maps.map((map) => (
+            <MatchMaps name={map.name} mapPhoto={map.MapPhotoUrl} />
           ))}
         </div>
       </div>

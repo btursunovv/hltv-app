@@ -189,14 +189,194 @@
   "Matches": [
     {
       "id": "1",
-      "team1": "Natus Vincere",
+      "team1": "Furia",
       "team2": "Heroic",
-      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
-      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
+      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
+      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/ffSPDr5mbWSKI4yruyfVtx.svg?ixlib=java-2.1.0&s=2b0a91cf4a31e6eec7a5928b10465f32",
       "eventLogo": "https://img-cdn.hltv.org/eventlogo/N4H1pG4TMQToS0GOf5_c6n.png?ixlib=java-2.1.0&w=50&s=55e8bb96250edba5aada48a0f46c6e42",
       "eventName": "BLAST.tv Paris Major 2023 Challengers Europe Last Chance Qualifier",
       "matchTime": "22:00",
       "matchGames": "bo3",
+      "players1": [
+        {
+          "name": "Andrei Piovezan",
+          "nickname": "arT",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/6iOItsKZEyu3Y_wYNBQmTO.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C0%2C467%2C467&w=200&s=b690524249f946589bc7fc15020b260c"
+        },
+        {
+          "name": "Yuri Santos",
+          "nickname": "yuurih",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/m3fnMeP4-iiVdIL3sjBG3O.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C4%2C467%2C467&w=200&s=0e11535263afe697fdb3b3912db4ba5a"
+        },
+        {
+          "name": "Kaike Cerato",
+          "nickname": "KSCERATO",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/4keim78MaUz3n9oyXr6Dbu.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=5a6d0cc6eabf145c9129cfb88b5a22d3"
+        },
+        {
+          "name": "Rafael Costa",
+          "nickname": "saffee",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/xurBY5sdmYUu7l2bQyNK8f.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=0fc26ab9768eabc7c5bdb5f03618bbf1"
+        },
+        {
+          "name": "André Abreu",
+          "nickname": "drop",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/qEsZ9huhuqIeeNBj9UOP44.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=faf9efc548dc4d1b0b102327754e6b1e"
+        }
+      ],
+      "players2": [
+        {
+          "name": "Casper Møller",
+          "nickname": "cadiaN",
+          "role": "sniper",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/LPx5hvA81pdvJlvThrFUiY.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C4%2C486%2C486&w=200&s=021f3e7216c5066514044acad0ddd20d"
+        },
+        {
+          "name": "Martin Lund",
+          "nickname": "stavn",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/7-vEqTQE4CAAFsXSVapF8p.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C0%2C478%2C478&w=200&s=ccc87817e4c29dea0e740883168acd08"
+        },
+        {
+          "name": "René Madsen",
+          "nickname": "TeSeS",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/Ch1VId8enAzmbsiOZPvzds.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=105%2C0%2C490%2C490&w=200&s=3d99a0aa42abd41b3b469426d66b6959"
+        },
+        {
+          "name": "Rasmus Beck",
+          "nickname": "sjuush",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/H4-F8tiCLLNLBg7PQ83pKY.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C4%2C474%2C474&w=200&s=c52dfb141174b891d6e773c57bb8beed"
+        },
+        {
+          "name": "Jakob Nygaard",
+          "nickname": "jabbi",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/nerctHcVDo6Jodpj7ww-PC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C0%2C486%2C486&w=200&s=6e3e1b37532bd8b34e334678c00af1a3"
+        }
+      ],
+      "maps": [
+        {
+          "name": "Dust2",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/dust2.png"
+        },
+        {
+          "name": "Ancient",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/ancient.png"
+        },
+        {
+          "name": "Mirage",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/mirage.png"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "team1": "Natus Vincere",
+      "team2": "Astralis",
+      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
+      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/9bgXHp-oh1oaXr7F0mTGmd.svg?ixlib=java-2.1.0&s=f567161ab183001be33948b98c4b2067",
+      "eventLogo": "https://img-cdn.hltv.org/eventlogo/N4H1pG4TMQToS0GOf5_c6n.png?ixlib=java-2.1.0&w=50&s=55e8bb96250edba5aada48a0f46c6e42",
+      "eventName": "BLAST.tv Paris Major 2023 Challengers Europe Last Chance Qualifier",
+      "matchTime": "22:00",
+      "matchGames": "bo3",
+      "players1": [
+        {
+          "name": "Oleksandr Kostyliev",
+          "nickname": "s1mple",
+          "role": "sniper",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/Q2u6AgnDNYQ3dyObwN4JBX.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C4%2C459%2C459&w=200&s=3030bab9a5023c1093d62aff81158180"
+        },
+        {
+          "name": "Denis Sharipov",
+          "nickname": "electroNic",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/BugxKUSuXiyJVpK4P27Ys1.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=a56e1d4535fce914471d4f81bb6c7c3a"
+        },
+        {
+          "name": "Ilya Zalutskiy",
+          "nickname": "Perfecto",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/zjSw1d8641HdnSRTIqHYpy.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C455%2C455&w=200&s=54429711b51db65dfb9f62887bfcffae"
+        },
+        {
+          "name": "Valeriy Vakhovskiy",
+          "nickname": "b1t",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/g-2t7HQ_d55I6VhRnP2URl.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C455%2C455&w=200&s=e5471a0dff885d88eaa3fa483b8c4215"
+        },
+        {
+          "name": "Andrii Kukharskyi",
+          "nickname": "npl",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/g8-dlDrEPdEF9iH0wWexgM.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C4%2C490%2C490&w=200&s=df92181f6de67db8c8a521a8ce783306"
+        }
+      ],
+      "players2": [
+        {
+          "name": "Andreas Højsleth",
+          "nickname": "Xyp9x",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/dZY7rUhYU7fjZ03E85thjX.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=116%2C8%2C467%2C467&w=200&s=8ac643f66df46e4bdcbd4272a5b214c5"
+        },
+        {
+          "name": "Lukas Rossander",
+          "nickname": "gla1ve",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/wF70Mh7ZoZxECIUMF6kz2h.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=200&s=dac1fae688097fda5e991498da81d19d"
+        },
+        {
+          "name": "Nicolai Reedtz",
+          "nickname": "device",
+          "role": "sniper",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/7ekOWJWIHJwwQARzAlKGqL.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C4%2C467%2C467&w=200&s=5960ca8a8cf1407060cb4ac285531588"
+        },
+        {
+          "name": "Benjamin Bremer",
+          "nickname": "blameF",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/2E6cPM2mB5MHoAXrP9fMlr.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C8%2C467%2C467&w=200&s=caf5b24d668ed29cb97eedfdb952e7a8"
+        },
+        {
+          "name": "Christian Andersen",
+          "nickname": "Buzz",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/gcLri2WLx-l_mvZsZQE_mV.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C4%2C467%2C467&w=200&s=e98c5953a16c2c02c777916ffe7c7dc9"
+        }
+      ],
+      "maps": [
+        {
+          "name": "Inferno",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/inferno.png"
+        },
+        {
+          "name": "Vertigo",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/vertigo.png"
+        },
+        {
+          "name": "Mirage",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/mirage.png"
+        }
+      ]
+    }
+  ],
+  "Results": [
+    {
+      "id": "1",
+      "team1": "Natus Vincere",
+      "team2": "Heroic",
+      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
+      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/ffSPDr5mbWSKI4yruyfVtx.svg?ixlib=java-2.1.0&s=2b0a91cf4a31e6eec7a5928b10465f32",
+      "eventName": "BLAST.tv Paris Major 2023",
+      "matchTime": "22:00",
+      "mapsWinByTeam1": "0",
+      "mapsWinByTeam2": "2",
       "players1": [
         {
           "name": "Oleksandr Kostyliev",
@@ -261,84 +441,115 @@
           "photo": "https://img-cdn.hltv.org/playerbodyshot/nerctHcVDo6Jodpj7ww-PC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C0%2C486%2C486&w=200&s=6e3e1b37532bd8b34e334678c00af1a3"
         }
       ],
-      "maps": ["dust2", "mirage", "inferno"]
+      "maps": [
+        {
+          "name": "Dust2",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/dust2.png",
+          "score": "5:16"
+        },
+        {
+          "name": "Ancient",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/ancient.png",
+          "score": "5:16"
+        },
+        {
+          "name": "Mirage",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/mirage.png",
+          "score": "No score"
+        }
+      ]
     },
     {
       "id": "2",
       "team1": "Natus Vincere",
       "team2": "Heroic",
       "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
-      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
-      "eventLogo": "https://img-cdn.hltv.org/eventlogo/N4H1pG4TMQToS0GOf5_c6n.png?ixlib=java-2.1.0&w=50&s=55e8bb96250edba5aada48a0f46c6e42",
-      "eventName": "BLAST.tv Paris Major 2023 Challengers Europe Last Chance Qualifier",
+      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/ffSPDr5mbWSKI4yruyfVtx.svg?ixlib=java-2.1.0&s=2b0a91cf4a31e6eec7a5928b10465f32",
+      "eventName": "BLAST.tv Paris Major 2023",
       "matchTime": "22:00",
-      "matchGames": "bo3"
-    },
-    {
-      "id": "3",
-      "team1": "Natus Vincere",
-      "team2": "Heroic",
-      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
-      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
-      "eventLogo": "https://img-cdn.hltv.org/eventlogo/N4H1pG4TMQToS0GOf5_c6n.png?ixlib=java-2.1.0&w=50&s=55e8bb96250edba5aada48a0f46c6e42",
-      "eventName": "BLAST.tv Paris Major 2023 Challengers Europe Last Chance Qualifier",
-      "matchTime": "22:00",
-      "matchGames": "bo3"
-    },
-    {
-      "id": "4",
-      "team1": "Natus Vincere",
-      "team2": "Heroic",
-      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
-      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
-      "eventLogo": "https://img-cdn.hltv.org/eventlogo/N4H1pG4TMQToS0GOf5_c6n.png?ixlib=java-2.1.0&w=50&s=55e8bb96250edba5aada48a0f46c6e42",
-      "eventName": "BLAST.tv Paris Major 2023 Challengers Europe Last Chance Qualifier",
-      "matchTime": "22:00",
-      "matchGames": "bo3"
-    },
-    {
-      "id": "5",
-      "team1": "Natus Vincere",
-      "team2": "Heroic",
-      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
-      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
-      "eventLogo": "https://img-cdn.hltv.org/eventlogo/N4H1pG4TMQToS0GOf5_c6n.png?ixlib=java-2.1.0&w=50&s=55e8bb96250edba5aada48a0f46c6e42",
-      "eventName": "BLAST.tv Paris Major 2023 Challengers Europe Last Chance Qualifier",
-      "matchTime": "22:00",
-      "matchGames": "bo3"
-    },
-    {
-      "id": "6",
-      "team1": "Natus Vincere",
-      "team2": "Heroic",
-      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
-      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
-      "eventLogo": "https://img-cdn.hltv.org/eventlogo/N4H1pG4TMQToS0GOf5_c6n.png?ixlib=java-2.1.0&w=50&s=55e8bb96250edba5aada48a0f46c6e42",
-      "eventName": "BLAST.tv Paris Major 2023 Challengers Europe Last Chance Qualifier",
-      "matchTime": "22:00",
-      "matchGames": "bo3"
-    },
-    {
-      "id": "7",
-      "team1": "Natus Vincere",
-      "team2": "Heroic",
-      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
-      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
-      "eventLogo": "https://img-cdn.hltv.org/eventlogo/N4H1pG4TMQToS0GOf5_c6n.png?ixlib=java-2.1.0&w=50&s=55e8bb96250edba5aada48a0f46c6e42",
-      "eventName": "BLAST.tv Paris Major 2023 Challengers Europe Last Chance Qualifier",
-      "matchTime": "22:00",
-      "matchGames": "bo3"
-    },
-    {
-      "id": "8",
-      "team1": "Natus Vincere",
-      "team2": "Heroic",
-      "team1LogoUrl": "https://img-cdn.hltv.org/teamlogo/kixzGZIb9IYAAv-1vGrGev.svg?ixlib=java-2.1.0&s=8f9986a391fcb1adfbfff021b824a937",
-      "team2LogoUrl": "https://img-cdn.hltv.org/teamlogo/mvNQc4csFGtxXk5guAh8m1.svg?ixlib=java-2.1.0&s=11e5056829ad5d6c06c5961bbe76d20c",
-      "eventLogo": "https://img-cdn.hltv.org/eventlogo/N4H1pG4TMQToS0GOf5_c6n.png?ixlib=java-2.1.0&w=50&s=55e8bb96250edba5aada48a0f46c6e42",
-      "eventName": "BLAST.tv Paris Major 2023 Challengers Europe Last Chance Qualifier",
-      "matchTime": "22:00",
-      "matchGames": "bo3"
+      "mapsWinByTeam1": "0",
+      "mapsWinByTeam2": "2",
+      "players1": [
+        {
+          "name": "Oleksandr Kostyliev",
+          "nickname": "s1mple",
+          "role": "sniper",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/Q2u6AgnDNYQ3dyObwN4JBX.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C4%2C459%2C459&w=200&s=3030bab9a5023c1093d62aff81158180"
+        },
+        {
+          "name": "Denis Sharipov",
+          "nickname": "electroNic",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/BugxKUSuXiyJVpK4P27Ys1.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=a56e1d4535fce914471d4f81bb6c7c3a"
+        },
+        {
+          "name": "Ilya Zalutskiy",
+          "nickname": "Perfecto",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/zjSw1d8641HdnSRTIqHYpy.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=136%2C12%2C455%2C455&w=200&s=54429711b51db65dfb9f62887bfcffae"
+        },
+        {
+          "name": "Valeriy Vakhovskiy",
+          "nickname": "b1t",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/g-2t7HQ_d55I6VhRnP2URl.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=132%2C8%2C455%2C455&w=200&s=e5471a0dff885d88eaa3fa483b8c4215"
+        },
+        {
+          "name": "Andrii Kukharskyi",
+          "nickname": "npl",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/g8-dlDrEPdEF9iH0wWexgM.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C4%2C490%2C490&w=200&s=df92181f6de67db8c8a521a8ce783306"
+        }
+      ],
+      "players2": [
+        {
+          "name": "Casper Møller",
+          "nickname": "cadiaN",
+          "role": "sniper",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/LPx5hvA81pdvJlvThrFUiY.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=113%2C4%2C486%2C486&w=200&s=021f3e7216c5066514044acad0ddd20d"
+        },
+        {
+          "name": "Martin Lund",
+          "nickname": "stavn",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/7-vEqTQE4CAAFsXSVapF8p.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=109%2C0%2C478%2C478&w=200&s=ccc87817e4c29dea0e740883168acd08"
+        },
+        {
+          "name": "René Madsen",
+          "nickname": "TeSeS",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/Ch1VId8enAzmbsiOZPvzds.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=105%2C0%2C490%2C490&w=200&s=3d99a0aa42abd41b3b469426d66b6959"
+        },
+        {
+          "name": "Rasmus Beck",
+          "nickname": "sjuush",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/H4-F8tiCLLNLBg7PQ83pKY.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C4%2C474%2C474&w=200&s=c52dfb141174b891d6e773c57bb8beed"
+        },
+        {
+          "name": "Jakob Nygaard",
+          "nickname": "jabbi",
+          "role": "rifler",
+          "photo": "https://img-cdn.hltv.org/playerbodyshot/nerctHcVDo6Jodpj7ww-PC.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=117%2C0%2C486%2C486&w=200&s=6e3e1b37532bd8b34e334678c00af1a3"
+        }
+      ],
+      "maps": [
+        {
+          "name": "Dust2",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/dust2.png",
+          "score": "5:16"
+        },
+        {
+          "name": "Ancient",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/ancient.png",
+          "score": "5:16"
+        },
+        {
+          "name": "Mirage",
+          "MapPhotoUrl": "https://www.hltv.org/img/static/maps/mirage.png",
+          "score": "16:5"
+        }
+      ]
     }
   ]
 }

@@ -17,15 +17,18 @@ import { useEffect, useState } from "react";
 import fakeJSON from "../../../fakeJSON.json";
 import PlayerOfWeekInfo from "./PlayerOfWeekInfo";
 import MatchesInfo from "./MatchesInfo";
-import "./matches.css";
-import ResultsInfo from "./ResultsInfo";
+import MatchesDetails from "./MatchesDetails";
+import ResultDetails from "./ResultDetails";
 
-function Results() {
+function ResultsDetailMain() {
   const navigate = useNavigate();
 
   const navigateHome = () => {
     navigate("/");
   };
+
+  const { id } = useParams();
+  const result = fakeJSON.Results.find((res) => res.id === id);
 
   return (
     <>
@@ -39,7 +42,7 @@ function Results() {
           </div>
         </div>
 
-        <div className="main-content-matches">
+        <div id="main-content">
           <aside id="left-content">
             {/* <div id="loot-bet-ad">
               <a href="#">
@@ -61,7 +64,7 @@ function Results() {
                 <a href="#">RANKING</a>
               </h5>
               <div id="teams-box">
-                {fakeData.teamsData.map((team) => (
+                {/* {fakeData.teamsData.map((team) => (
                   <Link to={`/teams/${team.name}`}>
                     <Team
                       rank={team.rank}
@@ -69,7 +72,7 @@ function Results() {
                       logoUrl={team.logoUrl}
                     />
                   </Link>
-                ))}
+                ))} */}
               </div>
               <div id="complete-ranking">
                 <span>Complete ranking</span>
@@ -95,10 +98,23 @@ function Results() {
               photoDescription={fakeData.gallerie.photoDescription}
             />
           </aside>
-          <div id="center-content-matches">
-            <ResultsInfo />
+          <div id="center-content">
+            <ResultDetails
+              id={result.id}
+              team1={result.team1}
+              team2={result.team2}
+              team1LogoUrl={result.team1LogoUrl}
+              team2LogoUrl={result.team2LogoUrl}
+              eventName={result.eventName}
+              players1={result.players1}
+              players2={result.players2}
+              mapsWonBy1={result.mapsWinByTeam1}
+              mapsWonBy2={result.mapsWinByTeam2}
+              matchTime={result.matchTime}
+              maps={result.maps}
+            />
           </div>
-          {/* <aside className="right-content">
+          <aside className="right-content">
             <a href="#">
               <h5>RECENT ACTIVITY</h5>
             </a>
@@ -114,7 +130,11 @@ function Results() {
                 <span>Post new topic</span>
               </div>
             </div>
-            
+            {/* <div id="ad4">
+              <a href="#">
+                <img src="https://i.imgur.com/UOpA8IG.png" alt="ad4" />
+              </a>
+            </div> */}
             <div>
               <h5>LATEST REPLAYS</h5>
               <div id="latest-replay">
@@ -123,7 +143,7 @@ function Results() {
                 ))}
               </div>
             </div>
-          </aside> */}
+          </aside>
         </div>
       </div>
       <Footer />
@@ -131,4 +151,4 @@ function Results() {
   );
 }
 
-export default Results;
+export default ResultsDetailMain;

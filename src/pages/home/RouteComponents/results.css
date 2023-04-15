@@ -1,0 +1,94 @@
+.resultsMainWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.resultGameWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #2d3844;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.resultsInfoCardImg1 {
+  width: 20px;
+}
+
+.resultsInfoCardImg2 {
+  width: 20px;
+}
+
+.resultsTeamName1 {
+  padding-left: 20px;
+  margin-right: -20px;
+}
+
+.resultsTeamName2 {
+  padding-right: 20px;
+  margin-left: -20px;
+}
+
+.resultsEventName {
+  padding-right: 40px;
+}
+
+.resultsScore {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.resultsMapsScore {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  align-items: center;
+  background-color: rgba(45, 56, 68, 0.35);
+  padding: 20px 40px;
+}
+
+.resultsMatchTime {
+  font-size: 40px;
+}
+
+.resultsScoreImg1 {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.resultsScoreImg2 {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.resultsTeamInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120px;
+}
+
+.resultScoreTeamName {
+  font-size: 17px;
+}
+
+.resultScoreValue {
+  font-size: 17px;
+}
+
+.resultOfTheMatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resultTable {
+  margin-top: 50px;
+}
+
+.resultMapScore {
+  display: flex;
+  justify-content: center;
+}

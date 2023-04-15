@@ -1,15 +1,15 @@
-import React from 'react';
-import './style.css';
-import shirt from '../../../../assets/images/hltv_shirt.png';
-import appleStore from '../../../../assets/images/appleStore.svg';
-import playStore from '../../../../assets/images/playStore.png';
-import app from '../../../../assets/images/app.png';
-import gamcare from '../../../../assets/images/gamcare.png';
-import gambleAware from '../../../../assets/images/gambleaware.png';
+import React from "react";
+import "./style.css";
+import shirt from "../../../../assets/images/hltv_shirt.png";
+import appleStore from "../../../../assets/images/appleStore.svg";
+import playStore from "../../../../assets/images/playStore.png";
+import app from "../../../../assets/images/app.png";
+import gamcare from "../../../../assets/images/gamcare.png";
+import gambleAware from "../../../../assets/images/gambleaware.png";
 function Footer() {
   return (
     <footer id="page-footer-wraper">
-      <div id="page-footer">
+      {/* <div id="page-footer">
         <div id="merch-app">
           <div id="hltv-merchandise">
             <div id="hltv-merchandise-buy">
@@ -70,10 +70,9 @@ function Footer() {
           <span>18+ Bet Responsibly |</span>
           <img src={gambleAware} alt="gamble aware image" />
         </div>
-      </div>
-
+      </div> */}
     </footer>
-  )
+  );
 }
 
 export default Footer;
