@@ -6,9 +6,9 @@ import fakeData from "./fakeData";
 import RankingPage from "./pages/home/RouteComponents/RankingPage";
 import PlayerOfWeek from "./pages/home/RouteComponents/PlayerOfWeek";
 import Matches from "./pages/home/RouteComponents/Matches";
-import MatchesInfo from "./pages/home/RouteComponents/MatchesInfo";
+
 import MatchesDetailMain from "./pages/home/RouteComponents/MatchesDetailMain";
-import MatchesEmpty from "./pages/home/RouteComponents/MatchesDetailMain";
+
 import Results from "./pages/home/RouteComponents/Results";
 import ResultsDetailMain from "./pages/home/RouteComponents/ResultsDetailMain";
 
