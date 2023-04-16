@@ -31,6 +31,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin: 0 40px;
+  /* padding-right: 150px; */
 }
 
 #left-content {
@@ -43,6 +44,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 145px;
+  visibility: hidden;
 }
 
 #center-content {

@@ -190,13 +190,6 @@ function Home() {
                 ))}
               </div>
             </div>
-            {/* <div>
-              <img
-                className="ad"
-                src="https://static.hltv.org//images/retina2/unikrn/third4.gif"
-                alt="ad"
-              />
-            </div> */}
             <div>
               <a href="#">
                 <h5>RESULTS</h5>
